@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html, body, #side-nav {
+    height: 100%;
+}
+body {
+	line-height: 1;
+    width: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#side-nav {
+    width: 15em;
+    background-color: cornflowerblue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+#side-nav-top {
+    width: inherit;
+    height: 6em;
+    background-color: dimgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+#side-nav-mid {
+    width: inherit;
+    height: auto;
+    background-color: cadetblue;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 998;
+}
+nav {
+    width: inherit;
+    margin: 50% 0 50% 0;
+    text-align: center;
+    clear: both;}
+    
+    nav ul li {
+        
+        width: 8em;
+        margin-left: 20%;
+        margin-right: 20%;
+        line-height: 2em;}
+    nav a {
+        color:#fff;
+        text-transform:uppercase;
+        font-weight:400;
+        letter-spacing:1.5px;
+        text-decoration: none;}
+        
+        nav a:hover {color: beige;}
+    nav a img {
+        width: 2em;
+        height: 2em;
+    }
+
+
+#side-nav-bot {
+    width: inherit;
+    height: 7em;
+    background-color: dimgray;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 997;
+}
+
+#content {
+    width: 100%;
+    float: left;
+    height: 100%;
+    background-color: darkgrey;
+}
